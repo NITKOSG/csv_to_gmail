@@ -1,0 +1,20 @@
+Send email using python and csv file
+-------------------------------------
+
+To run : 
+	
+	1. Create a config.py file and store your gmail username and password as:
+
+		GMAIL_USERNAME = < your email >
+		GMAIL_PASSWORD = < your gmail password >
+
+	2. Put your csv file inside the main directory. 
+
+	   Note : In this case i am using slack csv file and so the email is available at the second position of each entry or row.
+	   For a different csv file, this index may change accordingly.
+
+	   Make changes in the csv_reader.py file i.e change the email_index to the required index of your csv file email field.
+
+	3. Run the code
+
+		python main.py < name of the csv file >
